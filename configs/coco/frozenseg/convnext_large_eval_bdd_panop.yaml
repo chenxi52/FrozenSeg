@@ -1,0 +1,14 @@
+_BASE_: ./convnext_large_eval_ade20k.yaml
+
+MODEL:
+  MASK_FORMER:
+    TEST:
+      PANOPTIC_ON: True
+      INSTANCE_ON: False
+      SEMANTIC_ON: False
+      OBJECT_MASK_THRESHOLD: 0.4
+INPUT:
+    MIN_SIZE_TEST: 800
+    MAX_SIZE_TEST: 1333
+DATASETS:
+  TEST: ("bdd10k_40_panoptic_val",)

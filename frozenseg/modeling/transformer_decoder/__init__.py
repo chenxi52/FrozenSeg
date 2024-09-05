@@ -1,0 +1,1 @@
+from .frozenseg_transformer_decoder import MultiScaleMaskedTransformerDecoder

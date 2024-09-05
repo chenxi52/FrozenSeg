@@ -1,0 +1,13 @@
+_BASE_: ./convnext_large_eval_ade20k.yaml
+
+MODEL:
+  MASK_FORMER:
+    TEST:
+      PANOPTIC_ON: False
+      INSTANCE_ON: False
+      SEMANTIC_ON: True
+INPUT:
+  MIN_SIZE_TEST: 800
+  MAX_SIZE_TEST: 1333
+DATASETS:
+  TEST: ("bdd10k_val_sem_seg",)

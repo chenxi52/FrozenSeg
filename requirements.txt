@@ -1,0 +1,11 @@
+Cython==3.0.10
+einops==0.8.0
+open_clip_torch==2.26.1
+opencv-python==4.10.0.84
+scikit-image==0.24.0
+scipy==1.14.0
+shapely==2.0.5
+submitit==1.5.1
+timm==1.0.8
+tqdm==4.66.5
+pycocotools==2.0.8
