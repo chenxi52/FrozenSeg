@@ -1,0 +1,81 @@
+## panoptic
+[09/05 15:23:13] d2.data.dataset_mapper INFO: [DatasetMapper] Augmentations used in inference: [ResizeShortestEdge(short_edge_length=(800, 800), max_size=1333, sample_style='choice')]
+[09/05 15:23:13] d2.data.common INFO: Serializing the dataset using: <class 'detectron2.data.common._TorchSerializedList'>
+[09/05 15:23:13] d2.data.common INFO: Serializing 1000 elements to byte tensors and concatenating them all ...
+[09/05 15:23:13] d2.data.common INFO: Serialized dataset takes 0.90 MiB
+[09/05 15:23:13] d2.evaluation.evaluator INFO: Start inference on 250 batches
+[09/05 15:23:29] d2.evaluation.evaluator INFO: Inference done 1/250. Dataloading: 6.3985 s/iter. Inference: 8.7794 s/iter. Eval: 0.1248 s/iter. Total: 15.3067 s/iter. ETA=1:03:31
+[09/05 15:23:34] d2.evaluation.evaluator INFO: Inference done 17/250. Dataloading: 0.0016 s/iter. Inference: 0.2801 s/iter. Eval: 0.0415 s/iter. Total: 0.3233 s/iter. ETA=0:01:15
+[09/05 15:23:39] d2.evaluation.evaluator INFO: Inference done 33/250. Dataloading: 0.0017 s/iter. Inference: 0.2795 s/iter. Eval: 0.0412 s/iter. Total: 0.3224 s/iter. ETA=0:01:09
+[09/05 15:23:44] d2.evaluation.evaluator INFO: Inference done 49/250. Dataloading: 0.0017 s/iter. Inference: 0.2796 s/iter. Eval: 0.0414 s/iter. Total: 0.3227 s/iter. ETA=0:01:04
+[09/05 15:23:49] d2.evaluation.evaluator INFO: Inference done 65/250. Dataloading: 0.0017 s/iter. Inference: 0.2797 s/iter. Eval: 0.0412 s/iter. Total: 0.3226 s/iter. ETA=0:00:59
+[09/05 15:23:55] d2.evaluation.evaluator INFO: Inference done 81/250. Dataloading: 0.0017 s/iter. Inference: 0.2799 s/iter. Eval: 0.0415 s/iter. Total: 0.3232 s/iter. ETA=0:00:54
+[09/05 15:24:00] d2.evaluation.evaluator INFO: Inference done 97/250. Dataloading: 0.0017 s/iter. Inference: 0.2799 s/iter. Eval: 0.0417 s/iter. Total: 0.3233 s/iter. ETA=0:00:49
+[09/05 15:24:05] d2.evaluation.evaluator INFO: Inference done 113/250. Dataloading: 0.0017 s/iter. Inference: 0.2798 s/iter. Eval: 0.0417 s/iter. Total: 0.3232 s/iter. ETA=0:00:44
+[09/05 15:24:10] d2.evaluation.evaluator INFO: Inference done 129/250. Dataloading: 0.0017 s/iter. Inference: 0.2798 s/iter. Eval: 0.0417 s/iter. Total: 0.3232 s/iter. ETA=0:00:39
+[09/05 15:24:15] d2.evaluation.evaluator INFO: Inference done 145/250. Dataloading: 0.0017 s/iter. Inference: 0.2797 s/iter. Eval: 0.0416 s/iter. Total: 0.3230 s/iter. ETA=0:00:33
+[09/05 15:24:20] d2.evaluation.evaluator INFO: Inference done 161/250. Dataloading: 0.0017 s/iter. Inference: 0.2798 s/iter. Eval: 0.0416 s/iter. Total: 0.3231 s/iter. ETA=0:00:28
+[09/05 15:24:26] d2.evaluation.evaluator INFO: Inference done 177/250. Dataloading: 0.0017 s/iter. Inference: 0.2798 s/iter. Eval: 0.0415 s/iter. Total: 0.3230 s/iter. ETA=0:00:23
+[09/05 15:24:31] d2.evaluation.evaluator INFO: Inference done 193/250. Dataloading: 0.0017 s/iter. Inference: 0.2797 s/iter. Eval: 0.0415 s/iter. Total: 0.3230 s/iter. ETA=0:00:18
+[09/05 15:24:36] d2.evaluation.evaluator INFO: Inference done 209/250. Dataloading: 0.0017 s/iter. Inference: 0.2798 s/iter. Eval: 0.0416 s/iter. Total: 0.3231 s/iter. ETA=0:00:13
+[09/05 15:24:41] d2.evaluation.evaluator INFO: Inference done 225/250. Dataloading: 0.0017 s/iter. Inference: 0.2798 s/iter. Eval: 0.0415 s/iter. Total: 0.3230 s/iter. ETA=0:00:08
+[09/05 15:24:46] d2.evaluation.evaluator INFO: Inference done 241/250. Dataloading: 0.0017 s/iter. Inference: 0.2798 s/iter. Eval: 0.0415 s/iter. Total: 0.3230 s/iter. ETA=0:00:02
+[09/05 15:24:51] d2.evaluation.evaluator INFO: Total inference time: 0:01:20.646216 (0.329168 s / iter per device, on 4 devices)
+[09/05 15:24:51] d2.evaluation.evaluator INFO: Total inference pure compute time: 0:01:08 (0.279827 s / iter per device, on 4 devices)
+[09/05 15:24:51] d2.evaluation.panoptic_evaluation INFO: Writing all panoptic predictions to /tmp/panoptic_evalkbm4i2_s ...
+[09/05 15:25:22] d2.evaluation.panoptic_evaluation INFO: Panoptic Evaluation Results:
+|        |   PQ   |   SQ   |   RQ   |  #categories  |
+|:------:|:------:|:------:|:------:|:-------------:|
+|  All   | 19.267 | 43.738 | 23.496 |      40       |
+| Things | 29.925 | 66.721 | 36.406 |      10       |
+| Stuff  | 15.714 | 36.077 | 19.192 |      30       |
+[09/05 15:25:22] d2.engine.defaults INFO: Evaluation results for bdd10k_40_panoptic_val in csv format:
+[09/05 15:25:22] d2.evaluation.testing INFO: copypaste: Task: panoptic_seg
+[09/05 15:25:22] d2.evaluation.testing INFO: copypaste: PQ,SQ,RQ,PQ_th,SQ_th,RQ_th,PQ_st,SQ_st,RQ_st
+[09/05 15:25:22] d2.evaluation.testing INFO: copypaste: 19.2670,43.7382,23.4955,29.9245,66.7207,36.4057,15.7145,36.0774,19.1921
+
+## semantic
+[05/13 20:58:58] d2.data.dataset_mapper INFO: [DatasetMapper] Augmentations used in inference: [ResizeShortestEdge(short_edge_length=(800, 800), max_size=1333, sample_style='choice')]
+[05/13 20:58:58] d2.data.common INFO: Serializing the dataset using: <class 'detectron2.data.common._TorchSerializedList'>
+[05/13 20:58:58] d2.data.common INFO: Serializing 1000 elements to byte tensors and concatenating them all ...
+[05/13 20:58:58] d2.data.common INFO: Serialized dataset takes 0.22 MiB
+[05/13 20:58:58] d2.evaluation.evaluator INFO: Start inference on 500 batches
+[05/13 20:59:07] d2.evaluation.evaluator INFO: Inference done 11/500. Dataloading: 0.0019 s/iter. Inference: 0.2794 s/iter. Eval: 0.0359 s/iter. Total: 0.3172 s/iter. ETA=0:02:35
+[05/13 20:59:12] d2.evaluation.evaluator INFO: Inference done 26/500. Dataloading: 0.0026 s/iter. Inference: 0.2958 s/iter. Eval: 0.0368 s/iter. Total: 0.3352 s/iter. ETA=0:02:38
+[05/13 20:59:17] d2.evaluation.evaluator INFO: Inference done 42/500. Dataloading: 0.0026 s/iter. Inference: 0.2891 s/iter. Eval: 0.0361 s/iter. Total: 0.3279 s/iter. ETA=0:02:30
+[05/13 20:59:22] d2.evaluation.evaluator INFO: Inference done 55/500. Dataloading: 0.0062 s/iter. Inference: 0.2865 s/iter. Eval: 0.0509 s/iter. Total: 0.3437 s/iter. ETA=0:02:32
+[05/13 20:59:27] d2.evaluation.evaluator INFO: Inference done 71/500. Dataloading: 0.0053 s/iter. Inference: 0.2847 s/iter. Eval: 0.0476 s/iter. Total: 0.3377 s/iter. ETA=0:02:24
+[05/13 20:59:32] d2.evaluation.evaluator INFO: Inference done 87/500. Dataloading: 0.0048 s/iter. Inference: 0.2836 s/iter. Eval: 0.0455 s/iter. Total: 0.3340 s/iter. ETA=0:02:17
+[05/13 20:59:37] d2.evaluation.evaluator INFO: Inference done 103/500. Dataloading: 0.0045 s/iter. Inference: 0.2828 s/iter. Eval: 0.0438 s/iter. Total: 0.3312 s/iter. ETA=0:02:11
+[05/13 20:59:42] d2.evaluation.evaluator INFO: Inference done 119/500. Dataloading: 0.0042 s/iter. Inference: 0.2823 s/iter. Eval: 0.0428 s/iter. Total: 0.3294 s/iter. ETA=0:02:05
+[05/13 20:59:47] d2.evaluation.evaluator INFO: Inference done 135/500. Dataloading: 0.0040 s/iter. Inference: 0.2819 s/iter. Eval: 0.0419 s/iter. Total: 0.3279 s/iter. ETA=0:01:59
+[05/13 20:59:53] d2.evaluation.evaluator INFO: Inference done 151/500. Dataloading: 0.0039 s/iter. Inference: 0.2816 s/iter. Eval: 0.0413 s/iter. Total: 0.3268 s/iter. ETA=0:01:54
+[05/13 20:59:58] d2.evaluation.evaluator INFO: Inference done 167/500. Dataloading: 0.0037 s/iter. Inference: 0.2813 s/iter. Eval: 0.0408 s/iter. Total: 0.3260 s/iter. ETA=0:01:48
+[05/13 21:00:03] d2.evaluation.evaluator INFO: Inference done 183/500. Dataloading: 0.0037 s/iter. Inference: 0.2811 s/iter. Eval: 0.0404 s/iter. Total: 0.3252 s/iter. ETA=0:01:43
+[05/13 21:00:08] d2.evaluation.evaluator INFO: Inference done 199/500. Dataloading: 0.0036 s/iter. Inference: 0.2809 s/iter. Eval: 0.0401 s/iter. Total: 0.3246 s/iter. ETA=0:01:37
+[05/13 21:00:13] d2.evaluation.evaluator INFO: Inference done 215/500. Dataloading: 0.0035 s/iter. Inference: 0.2808 s/iter. Eval: 0.0398 s/iter. Total: 0.3241 s/iter. ETA=0:01:32
+[05/13 21:00:18] d2.evaluation.evaluator INFO: Inference done 231/500. Dataloading: 0.0034 s/iter. Inference: 0.2807 s/iter. Eval: 0.0396 s/iter. Total: 0.3237 s/iter. ETA=0:01:27
+[05/13 21:00:23] d2.evaluation.evaluator INFO: Inference done 247/500. Dataloading: 0.0034 s/iter. Inference: 0.2806 s/iter. Eval: 0.0393 s/iter. Total: 0.3234 s/iter. ETA=0:01:21
+[05/13 21:00:28] d2.evaluation.evaluator INFO: Inference done 263/500. Dataloading: 0.0033 s/iter. Inference: 0.2805 s/iter. Eval: 0.0391 s/iter. Total: 0.3230 s/iter. ETA=0:01:16
+[05/13 21:00:33] d2.evaluation.evaluator INFO: Inference done 279/500. Dataloading: 0.0033 s/iter. Inference: 0.2804 s/iter. Eval: 0.0389 s/iter. Total: 0.3227 s/iter. ETA=0:01:11
+[05/13 21:00:38] d2.evaluation.evaluator INFO: Inference done 295/500. Dataloading: 0.0033 s/iter. Inference: 0.2803 s/iter. Eval: 0.0388 s/iter. Total: 0.3225 s/iter. ETA=0:01:06
+[05/13 21:00:43] d2.evaluation.evaluator INFO: Inference done 311/500. Dataloading: 0.0032 s/iter. Inference: 0.2803 s/iter. Eval: 0.0387 s/iter. Total: 0.3223 s/iter. ETA=0:01:00
+[05/13 21:00:49] d2.evaluation.evaluator INFO: Inference done 327/500. Dataloading: 0.0032 s/iter. Inference: 0.2802 s/iter. Eval: 0.0385 s/iter. Total: 0.3221 s/iter. ETA=0:00:55
+[05/13 21:00:55] d2.evaluation.evaluator INFO: Inference done 339/500. Dataloading: 0.0033 s/iter. Inference: 0.2871 s/iter. Eval: 0.0399 s/iter. Total: 0.3303 s/iter. ETA=0:00:53
+[05/13 21:01:00] d2.evaluation.evaluator INFO: Inference done 351/500. Dataloading: 0.0049 s/iter. Inference: 0.2879 s/iter. Eval: 0.0411 s/iter. Total: 0.3342 s/iter. ETA=0:00:49
+[05/13 21:01:06] d2.evaluation.evaluator INFO: Inference done 367/500. Dataloading: 0.0048 s/iter. Inference: 0.2876 s/iter. Eval: 0.0409 s/iter. Total: 0.3336 s/iter. ETA=0:00:44
+[05/13 21:01:11] d2.evaluation.evaluator INFO: Inference done 383/500. Dataloading: 0.0047 s/iter. Inference: 0.2872 s/iter. Eval: 0.0408 s/iter. Total: 0.3329 s/iter. ETA=0:00:38
+[05/13 21:01:16] d2.evaluation.evaluator INFO: Inference done 399/500. Dataloading: 0.0046 s/iter. Inference: 0.2869 s/iter. Eval: 0.0406 s/iter. Total: 0.3323 s/iter. ETA=0:00:33
+[05/13 21:01:21] d2.evaluation.evaluator INFO: Inference done 415/500. Dataloading: 0.0045 s/iter. Inference: 0.2865 s/iter. Eval: 0.0404 s/iter. Total: 0.3317 s/iter. ETA=0:00:28
+[05/13 21:01:26] d2.evaluation.evaluator INFO: Inference done 431/500. Dataloading: 0.0045 s/iter. Inference: 0.2863 s/iter. Eval: 0.0403 s/iter. Total: 0.3312 s/iter. ETA=0:00:22
+[05/13 21:01:31] d2.evaluation.evaluator INFO: Inference done 447/500. Dataloading: 0.0044 s/iter. Inference: 0.2860 s/iter. Eval: 0.0401 s/iter. Total: 0.3307 s/iter. ETA=0:00:17
+[05/13 21:01:36] d2.evaluation.evaluator INFO: Inference done 463/500. Dataloading: 0.0043 s/iter. Inference: 0.2857 s/iter. Eval: 0.0400 s/iter. Total: 0.3303 s/iter. ETA=0:00:12
+[05/13 21:01:41] d2.evaluation.evaluator INFO: Inference done 479/500. Dataloading: 0.0043 s/iter. Inference: 0.2855 s/iter. Eval: 0.0398 s/iter. Total: 0.3299 s/iter. ETA=0:00:06
+[05/13 21:01:46] d2.evaluation.evaluator INFO: Inference done 495/500. Dataloading: 0.0042 s/iter. Inference: 0.2853 s/iter. Eval: 0.0397 s/iter. Total: 0.3294 s/iter. ETA=0:00:01
+[05/13 21:02:04] d2.evaluation.evaluator INFO: Total inference time: 0:02:58.901348 (0.361417 s / iter per device, on 2 devices)
+[05/13 21:02:04] d2.evaluation.evaluator INFO: Total inference pure compute time: 0:02:21 (0.285237 s / iter per device, on 2 devices)
+[05/13 21:02:05] d2.evaluation.sem_seg_evaluation INFO: OrderedDict([('sem_seg', {'mIoU': 52.28159952897864, 'S_mIoU': 62.4033284436156, 'U_mIoU': 30.351186880598497, 'fwIoU': 78.81153316177783, 'IoU-road': 92.70506509223631, 'BoundaryIoU-road': 82.46904118889213, 'min(IoU, B-Iou)-road': 82.46904118889213, 'IoU-sidewalk': 51.9319400477429, 'BoundaryIoU-sidewalk': 15.115879683222818, 'min(IoU, B-Iou)-sidewalk': 15.115879683222818, 'IoU-building': 80.66494852792113, 'BoundaryIoU-building': 48.985035523295636, 'min(IoU, B-Iou)-building': 48.985035523295636, 'IoU-wall': 27.635162028612747, 'BoundaryIoU-wall': 2.660408531801321, 'min(IoU, B-Iou)-wall': 2.660408531801321, 'IoU-fence': 44.28298167444838, 'BoundaryIoU-fence': 12.001754372579496, 'min(IoU, B-Iou)-fence': 12.001754372579496, 'IoU-pole': 2.235102345182876, 'BoundaryIoU-pole': 8.632448756996535, 'min(IoU, B-Iou)-pole': 2.235102345182876, 'IoU-traffic light': 34.23828289550927, 'BoundaryIoU-traffic light': 33.81387597833923, 'min(IoU, B-Iou)-traffic light': 33.81387597833923, 'IoU-traffic sign': 5.043381298525499, 'BoundaryIoU-traffic sign': 15.129719648084702, 'min(IoU, B-Iou)-traffic sign': 5.043381298525499, 'IoU-vegetation': 59.23882495952436, 'BoundaryIoU-vegetation': 54.41298220087815, 'min(IoU, B-Iou)-vegetation': 54.41298220087815, 'IoU-terrain': 10.474563221091863, 'BoundaryIoU-terrain': 9.281163402624182, 'min(IoU, B-Iou)-terrain': 9.281163402624182, 'IoU-sky': 91.55364903685151, 'BoundaryIoU-sky': 85.27205920541334, 'min(IoU, B-Iou)-sky': 85.27205920541334, 'IoU-person': 70.75621400651572, 'BoundaryIoU-person': 49.867620452611035, 'min(IoU, B-Iou)-person': 49.867620452611035, 'IoU-rider': 53.18330941152348, 'BoundaryIoU-rider': 29.059447211936103, 'min(IoU, B-Iou)-rider': 29.059447211936103, 'IoU-car': 83.22141593747642, 'BoundaryIoU-car': 0.0, 'min(IoU, B-Iou)-car': 0.0, 'IoU-truck': 50.552088707539426, 'BoundaryIoU-truck': 0.0, 'min(IoU, B-Iou)-truck': 0.0, 'IoU-bus': 83.29964337873285, 'BoundaryIoU-bus': 0.0, 'min(IoU, B-Iou)-bus': 0.0, 'IoU-train': 2.885102075248861, 'BoundaryIoU-train': 0.0, 'min(IoU, B-Iou)-train': 0.0, 'IoU-motorcycle': 79.75637258251896, 'BoundaryIoU-motorcycle': 0.0, 'min(IoU, B-Iou)-motorcycle': 0.0, 'IoU-bicycle': 69.69234382339127, 'BoundaryIoU-bicycle': 0.0, 'min(IoU, B-Iou)-bicycle': 0.0, 'mACC': 66.79151642978614, 'pACC': 86.11552324870566, 'Recall': 86.11552324870566, 'S_Recall': 94.28912437363685, 'U_Recall': 69.6486403646182, 'ACC-road': 96.30089349914222, 'ACC-sidewalk': 80.74366752348936, 'ACC-building': 92.25210807552885, 'ACC-wall': 65.0651605448796, 'ACC-fence': 65.54861565278581, 'ACC-pole': 7.993593459682023, 'ACC-traffic light': 81.54222288837208, 'ACC-traffic sign': 14.598979801344573, 'ACC-vegetation': 62.08768939109001, 'ACC-terrain': 11.445465527188594, 'ACC-sky': 99.05081752793117, 'ACC-person': 77.65844371733924, 'ACC-rider': 68.48109481743874, 'ACC-car': 88.70899458967976, 'ACC-truck': 90.27905300439592, 'ACC-bus': 90.83941110697238, 'ACC-train': 4.3707666185894505, 'ACC-motorcycle': 86.04606154441649, 'ACC-bicycle': 86.02577287567038})])
+[05/13 21:02:05] d2.engine.defaults INFO: Evaluation results for bdd10k_val_sem_seg in csv format:
+[05/13 21:02:05] d2.evaluation.testing INFO: copypaste: Task: sem_seg
+[05/13 21:02:05] d2.evaluation.testing INFO: copypaste: mIoU,S_mIoU,U_mIoU,fwIoU,mACC,pACC,Recall,S_Recall,U_Recall
+[05/13 21:02:05] d2.evaluation.testing INFO: copypaste: 52.2816,62.4033,30.3512,78.8115,66.7915,86.1155,86.1155,94.2891,69.6486

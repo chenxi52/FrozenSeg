@@ -1,0 +1,11 @@
+_BASE_: ./convnext_large_eval_ade20k.yaml
+
+MODEL:
+  MASK_FORMER:
+    TEST:
+      PANOPTIC_ON: False
+      INSTANCE_ON: True
+      SEMANTIC_ON: False
+
+DATASETS:
+  TEST: ("openvocab_lvis_v1_val",)

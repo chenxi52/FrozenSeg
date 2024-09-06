@@ -1,0 +1,55 @@
+[02/12 11:42:15] d2.data.dataset_mapper INFO: [DatasetMapper] Augmentations used in inference: [ResizeShortestEdge(short_edge_length=(1024, 1024), max_size=2560, sample_style='choice')]
+[02/12 11:42:15] d2.data.common INFO: Serializing the dataset using: <class 'detectron2.data.common._TorchSerializedList'>
+[02/12 11:42:15] d2.data.common INFO: Serializing 500 elements to byte tensors and concatenating them all ...
+[02/12 11:42:15] d2.data.common INFO: Serialized dataset takes 0.80 MiB
+[02/12 11:42:15] d2.evaluation.evaluator INFO: Start inference on 125 batches
+[02/12 11:42:15] d2.evaluation.cityscapes_evaluation INFO: Writing cityscapes results to temporary directory /tmp/cityscapes_eval_znbfo6st ...
+[02/12 11:42:15] d2.evaluation.cityscapes_evaluation INFO: Writing cityscapes results to temporary directory /tmp/cityscapes_eval_y_3wx1s_ ...
+[02/12 11:42:35] d2.evaluation.evaluator INFO: Inference done 11/125. Dataloading: 0.0018 s/iter. Inference: 0.4807 s/iter. Eval: 0.6946 s/iter. Total: 1.1771 s/iter. ETA=0:02:14
+[02/12 11:42:41] d2.evaluation.evaluator INFO: Inference done 16/125. Dataloading: 0.0023 s/iter. Inference: 0.4804 s/iter. Eval: 0.7087 s/iter. Total: 1.1916 s/iter. ETA=0:02:09
+[02/12 11:42:48] d2.evaluation.evaluator INFO: Inference done 21/125. Dataloading: 0.0025 s/iter. Inference: 0.4801 s/iter. Eval: 0.7305 s/iter. Total: 1.2133 s/iter. ETA=0:02:06
+[02/12 11:42:53] d2.evaluation.evaluator INFO: Inference done 26/125. Dataloading: 0.0025 s/iter. Inference: 0.4792 s/iter. Eval: 0.7120 s/iter. Total: 1.1939 s/iter. ETA=0:01:58
+[02/12 11:42:59] d2.evaluation.evaluator INFO: Inference done 30/125. Dataloading: 0.0026 s/iter. Inference: 0.4795 s/iter. Eval: 0.7282 s/iter. Total: 1.2104 s/iter. ETA=0:01:54
+[02/12 11:43:04] d2.evaluation.evaluator INFO: Inference done 34/125. Dataloading: 0.0026 s/iter. Inference: 0.4794 s/iter. Eval: 0.7413 s/iter. Total: 1.2235 s/iter. ETA=0:01:51
+[02/12 11:43:10] d2.evaluation.evaluator INFO: Inference done 39/125. Dataloading: 0.0026 s/iter. Inference: 0.4792 s/iter. Eval: 0.7373 s/iter. Total: 1.2194 s/iter. ETA=0:01:44
+[02/12 11:43:15] d2.evaluation.evaluator INFO: Inference done 43/125. Dataloading: 0.0026 s/iter. Inference: 0.4793 s/iter. Eval: 0.7524 s/iter. Total: 1.2345 s/iter. ETA=0:01:41
+[02/12 11:43:21] d2.evaluation.evaluator INFO: Inference done 47/125. Dataloading: 0.0027 s/iter. Inference: 0.4793 s/iter. Eval: 0.7686 s/iter. Total: 1.2507 s/iter. ETA=0:01:37
+[02/12 11:43:26] d2.evaluation.evaluator INFO: Inference done 51/125. Dataloading: 0.0026 s/iter. Inference: 0.4794 s/iter. Eval: 0.7763 s/iter. Total: 1.2584 s/iter. ETA=0:01:33
+[02/12 11:43:31] d2.evaluation.evaluator INFO: Inference done 55/125. Dataloading: 0.0027 s/iter. Inference: 0.4794 s/iter. Eval: 0.7799 s/iter. Total: 1.2620 s/iter. ETA=0:01:28
+[02/12 11:43:36] d2.evaluation.evaluator INFO: Inference done 59/125. Dataloading: 0.0026 s/iter. Inference: 0.4795 s/iter. Eval: 0.7795 s/iter. Total: 1.2617 s/iter. ETA=0:01:23
+[02/12 11:43:42] d2.evaluation.evaluator INFO: Inference done 63/125. Dataloading: 0.0026 s/iter. Inference: 0.4794 s/iter. Eval: 0.7858 s/iter. Total: 1.2680 s/iter. ETA=0:01:18
+[02/12 11:43:48] d2.evaluation.evaluator INFO: Inference done 68/125. Dataloading: 0.0027 s/iter. Inference: 0.4794 s/iter. Eval: 0.7831 s/iter. Total: 1.2653 s/iter. ETA=0:01:12
+[02/12 11:43:54] d2.evaluation.evaluator INFO: Inference done 73/125. Dataloading: 0.0027 s/iter. Inference: 0.4793 s/iter. Eval: 0.7826 s/iter. Total: 1.2647 s/iter. ETA=0:01:05
+[02/12 11:44:00] d2.evaluation.evaluator INFO: Inference done 77/125. Dataloading: 0.0027 s/iter. Inference: 0.4792 s/iter. Eval: 0.7888 s/iter. Total: 1.2708 s/iter. ETA=0:01:00
+[02/12 11:44:05] d2.evaluation.evaluator INFO: Inference done 81/125. Dataloading: 0.0027 s/iter. Inference: 0.4791 s/iter. Eval: 0.7942 s/iter. Total: 1.2761 s/iter. ETA=0:00:56
+[02/12 11:44:11] d2.evaluation.evaluator INFO: Inference done 85/125. Dataloading: 0.0027 s/iter. Inference: 0.4791 s/iter. Eval: 0.7970 s/iter. Total: 1.2789 s/iter. ETA=0:00:51
+[02/12 11:44:17] d2.evaluation.evaluator INFO: Inference done 89/125. Dataloading: 0.0027 s/iter. Inference: 0.4792 s/iter. Eval: 0.8093 s/iter. Total: 1.2913 s/iter. ETA=0:00:46
+[02/12 11:44:22] d2.evaluation.evaluator INFO: Inference done 93/125. Dataloading: 0.0027 s/iter. Inference: 0.4793 s/iter. Eval: 0.8141 s/iter. Total: 1.2961 s/iter. ETA=0:00:41
+[02/12 11:44:28] d2.evaluation.evaluator INFO: Inference done 97/125. Dataloading: 0.0027 s/iter. Inference: 0.4792 s/iter. Eval: 0.8166 s/iter. Total: 1.2986 s/iter. ETA=0:00:36
+[02/12 11:44:33] d2.evaluation.evaluator INFO: Inference done 101/125. Dataloading: 0.0027 s/iter. Inference: 0.4791 s/iter. Eval: 0.8179 s/iter. Total: 1.2998 s/iter. ETA=0:00:31
+[02/12 11:44:39] d2.evaluation.evaluator INFO: Inference done 106/125. Dataloading: 0.0027 s/iter. Inference: 0.4790 s/iter. Eval: 0.8130 s/iter. Total: 1.2948 s/iter. ETA=0:00:24
+[02/12 11:44:45] d2.evaluation.evaluator INFO: Inference done 111/125. Dataloading: 0.0027 s/iter. Inference: 0.4789 s/iter. Eval: 0.8098 s/iter. Total: 1.2916 s/iter. ETA=0:00:18
+[02/12 11:44:51] d2.evaluation.evaluator INFO: Inference done 116/125. Dataloading: 0.0027 s/iter. Inference: 0.4790 s/iter. Eval: 0.8058 s/iter. Total: 1.2876 s/iter. ETA=0:00:11
+[02/12 11:44:57] d2.evaluation.evaluator INFO: Inference done 121/125. Dataloading: 0.0027 s/iter. Inference: 0.4789 s/iter. Eval: 0.8015 s/iter. Total: 1.2832 s/iter. ETA=0:00:05
+[02/12 11:45:03] d2.evaluation.evaluator INFO: Inference done 125/125. Dataloading: 0.0027 s/iter. Inference: 0.4789 s/iter. Eval: 0.8041 s/iter. Total: 1.2858 s/iter. ETA=0:00:00
+[02/12 11:45:03] d2.evaluation.evaluator INFO: Total inference time: 0:02:34.789989 (1.289917 s / iter per device, on 4 devices)
+[02/12 11:45:03] d2.evaluation.evaluator INFO: Total inference pure compute time: 0:00:57 (0.478924 s / iter per device, on 4 devices)
+[02/12 11:45:15] d2.evaluation.panoptic_evaluation INFO: Writing all panoptic predictions to /tmp/panoptic_evalef4le7ph ...
+[02/12 11:45:38] d2.evaluation.panoptic_evaluation INFO: Panoptic Evaluation Results:
+|        |   PQ   |   SQ   |   RQ   |  #categories  |
+|:------:|:------:|:------:|:------:|:-------------:|
+|  All   | 45.762 | 74.797 | 55.811 |      19       |
+| Things | 39.744 | 78.564 | 50.059 |       8       |
+| Stuff  | 50.139 | 72.057 | 59.995 |      11       |
+[02/12 11:45:39] d2.evaluation.cityscapes_evaluation INFO: Evaluating results under /tmp/cityscapes_eval_znbfo6st ...
+[02/12 11:46:44] d2.evaluation.cityscapes_evaluation INFO: Evaluating results under /tmp/cityscapes_eval_y_3wx1s_ ...
+[02/12 11:51:52] d2.engine.defaults INFO: Evaluation results for openvocab_cityscapes_fine_panoptic_val in csv format:
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: Task: panoptic_seg
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: PQ,SQ,RQ,PQ_th,SQ_th,RQ_th,PQ_st,SQ_st,RQ_st
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: 45.7621,74.7966,55.8115,39.7435,78.5635,50.0592,50.1393,72.0570,59.9949
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: Task: sem_seg
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: IoU,iIoU,IoU_sup,iIoU_sup
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: 56.8032,42.9703,77.3860,66.1769
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: Task: segm
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: AP,AP50
+[02/12 11:51:52] d2.evaluation.testing INFO: copypaste: 28.3541,50.1885
