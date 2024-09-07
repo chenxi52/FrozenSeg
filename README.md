@@ -84,7 +84,7 @@ See [Getting Started](GETTING_STARTED.md).
     <td align="center">55.7</td>
     <td align="center">47.4</td>
     <td align="center">65.4</td>
-    <td align="center"><a href=""> checkpoint </a></td>
+    <td align="center"><a href="https://drive.google.com/file/d/1wiPKPczTXrH1cPrDbf-l9NGdOkMUUikw/view?usp=drive_link"> checkpoint </a></td>
   </tr>
   <tr>
     <td align="center"><a href="configs/coco/frozenseg/convnext_large_eval_ade20k.yaml"> FrozenSeg (ConvNeXt-Large) </a></td>
