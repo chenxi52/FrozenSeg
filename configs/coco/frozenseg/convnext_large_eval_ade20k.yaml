@@ -11,8 +11,8 @@ MODEL:
   PIXEL_STD: [68.5005327, 66.6321579, 70.32316305]
   FROZEN_SEG:
     CLIP_MODEL_NAME: "convnext_large_d_320"
-    # CLIP_PRETRAINED_WEIGHTS: "laion2b_s29b_b131k_ft_soup"
-    CLIP_PRETRAINED_WEIGHTS: "pretrained_checkpoint/models--laion--CLIP-convnext_large_d_320.laion2B-s29B-b131K-ft-soup/open_clip_pytorch_model.bin"
+    CLIP_PRETRAINED_WEIGHTS: "laion2b_s29b_b131k_ft_soup"
+    # CLIP_PRETRAINED_WEIGHTS: "pretrained_checkpoint/models--laion--CLIP-convnext_large_d_320.laion2B-s29B-b131K-ft-soup/open_clip_pytorch_model.bin"
     EMBED_DIM: 768
     GEOMETRIC_ENSEMBLE_ALPHA: 0.4
     GEOMETRIC_ENSEMBLE_BETA: 0.8
